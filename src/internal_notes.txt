@@ -1,0 +1,4 @@
+// Minimalistic UI and Background Processing Implementation Details
+// 1. Move Y16 conversion to background thread.
+// 2. Simplfy MyApp::update.
+// 3. Remove header/sidebar.

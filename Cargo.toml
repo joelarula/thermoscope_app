@@ -1,0 +1,16 @@
+[package]
+name = "thermoscope_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.26" # UI framework
+rusb = "0.9"    # USB communication
+image = "0.24"  # Image processing
+anyhow = "1.0"  # Error handling
+tokio = { version = "1.0", features = ["full"] } # Async runtime
+log = "0.4"
+env_logger = "0.10"
+palette = "0.7" # Color mapping for thermal visualization
+libloading = "0.8"
+libc = "0.2"

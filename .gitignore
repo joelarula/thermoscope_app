@@ -1,0 +1,30 @@
+# Rust
+/target
+/Cargo.lock
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs & Temp
+*.log
+errors.txt
+CACHEDIR.TAG
+.rustc_info.json
+
+# Build Artifacts
+libuvc.dll
+
+# Project specific
+/resources/
+/ghidra/
+/extracted_apk/
+/sources/
+/sources2/
+/temp_apk/
+/build/
+/debug/
+/thermoscope_app/
